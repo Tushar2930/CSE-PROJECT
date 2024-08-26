@@ -1,0 +1,105 @@
+.contaiiner {
+    /* background-color: black; */
+    /* color: white; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.icoon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inpform {
+    width: 100%;
+}
+
+.mess {
+    width: 100%;
+    height: 100%;
+}
+
+.chatbox {
+    /* border: solid 5px black;s */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    background-image: url("https://cdn.dribbble.com/users/2479503/screenshots/6384602/chat_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+img {
+    width: 4rem
+}
+
+.messaged {
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.4rem 0.5rem;
+    max-width: 30rem;
+    height: auto;
+    overflow-wrap: anywhere;
+
+}
+
+.left {
+    align-self: flex-start;
+    background-color: #16437f;
+    color: white;
+    border: solid 1px #16437f;
+
+}
+
+.right {
+    align-self: flex-end;
+    border: solid 1px #09275e;
+    background-color: #09275e;
+    color: white;
+
+}
+
+.middle {
+    align-self: center;
+    background-color: white;
+    color: black;
+    border: solid 1px white;
+}
+
+.inpf {
+    display: flex;
+
+}
+
+.INPtext {
+    width: 80%;
+    height: 75%;
+    border: solid 3px black;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.button {
+    width: 15%;
+    height: 75%;
+    border: solid 3px black;
+    border-radius: 15px;
+
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.chats::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
